@@ -99,3 +99,19 @@ nav ul li:hover{
   padding:15px;
   margin:15px;
 }
+table{
+    width: 100%;
+    /* border-collapse: collapse; */
+}
+table, th, td{
+    border: 2px solid green;
+}
+th{
+    text-align: center;
+    background: #ADE28A;
+}
+td{
+    text-align: left;
+    background: #efd177;
+    padding: 16px;
+}
