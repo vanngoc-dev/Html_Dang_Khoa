@@ -115,3 +115,22 @@ td{
     background: #efd177;
     padding: 16px;
 }
+#pollution{
+    margin-top: 40px;
+}
+#typeOfPollution .row1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    float: left;
+    width: 100%;
+}
+#typeOfPollution .column{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    float: left;
+}
+#typeOfPollution .column img{
+    width: 100%;
+    height: 300px;
+}
